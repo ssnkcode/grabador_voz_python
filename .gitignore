@@ -1,0 +1,82 @@
+# Dependencias de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Electron
+dist/
+build/
+out/
+release/
+app/
+dist-electron/
+*.exe
+*.msi
+*.dmg
+*.AppImage
+
+# Configuración de Electron
+electron-builder.yml
+electron-builder.json
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs
+*.log
+
+# Output de compilación
+coverage/
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*~
+
+# Archivos del sistema
+*.orig
+*.rej
+
+# Archivos específicos de SSNKcode
+build/icon.*
+!build/icon.png
+
+# Otros
+.cache/
+.tmp/
+temp/
